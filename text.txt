@@ -1,0 +1,47 @@
+1. Header Section:
+   - Class: header-content
+   - Text: Your Name
+   - Class: `ri-chat-4-fill` (icon for email)
+
+2. Home Section:
+   - Class: main-content
+   - Class: profile-info
+   - Image Source: assets/images/Watashi.jpeg
+   
+   - Class: text-info
+   - Text: Your Name
+   
+   - Class: social-links
+     - Link: "https://github.com/" (GitHub) - Icon: ri-github-fill
+     - Link: "https://www.linkedin.com/in/" (LinkedIn) - Icon: ri-linkedin-box-fill
+     - Link: "https://www.instagram.com/" (Instagram) - Icon: ri-instagram-line
+   
+   - Class: user-bio
+     - Text: Aspiring Computer Science Engineer with a passion for coding, seeking opportunities in software development. Strong in Java, Python, and Web technologies.
+     - Link: assets/pdf/Resume.pdf (Download Resume)
+   
+   - Class: quote-box
+     - Text: "You cannot use the word possibility without limitations." - Master Higuchi
+
+3. Projects Section:
+   - Class: main-content
+   - Text: PROJECTS
+   
+   - Class: project-grid
+   
+   - Class: project
+     - Link: https://github.com/ (GitHub) - Icon: ri-external-link-fill
+     - Text: Project Name
+
+     - Class: project-languages
+       - Span: JavaScript
+       - Span: CSS
+       - Span: HTML
+
+   - Class: more-projects
+     - Text: more at GitHub
+     - Link: https://github.com/ (GitHub) - Icon: ri-external-link-fill
+
+4. Footer Section:
+   - Text: © 2024 Built by Your Name
+   - Link: https://github.com/ (GitHub)
