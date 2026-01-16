@@ -1,0 +1,130 @@
+/* === GENERAL LAYOUT === */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #f0e7d8 url("Timeline.png") center/cover no-repeat fixed;
+}
+
+.timeline-container {
+  width: 95%;
+  margin-top: 30px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding-bottom: 40px;
+  text-align: center;
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(6px);
+  border-radius: 10px;
+}
+
+.timeline-container h1 {
+  margin: 20px 0 80px 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+
+/* === MAIN TIMELINE BAR === */
+.timeline {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, #b80715, #ff5249);
+  border-radius: 2px;
+  z-index: 0;
+}
+
+/* === ERA BLOCK === */
+.era {
+  display: inline-block;
+  background: #333;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 0 30px;
+  position: relative;
+  z-index: 2;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+/* === EVENT INITIAL STATE === */
+.event {
+  display: inline-block;
+  margin: 0 30px;
+  white-space: normal;
+  text-align: left;
+  position: relative;
+}
+
+/* === CONNECTOR LINE === */
+.connector {
+  width: 2px;
+  height: 45px;
+  background: #b80715;
+  margin: 4px auto;
+}
+
+/* === CONTENT CARD === */
+.content {
+  background: #b80715;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 5px;
+  width: 170px;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+
+/* === POSITIONING CLASSES === */
+.event.up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(-60px);
+}
+
+.event.down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(40px);
+}
+
+.event.down .connector {
+  order: -1;
+}
+
+/* === SCROLLBAR STYLING === */
+.timeline-container::-webkit-scrollbar { height: 6px; }
+.timeline-container::-webkit-scrollbar-track { background: #eee; }
+.timeline-container::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 3px;
+}
