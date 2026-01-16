@@ -1,6 +1,6 @@
 # 📓 Technology Learning Journal  
 **Date:** 16 January 2026  
-**Directory Worked On:**:
+**Directory Worked On:** Timeline
 
 Today I learned several things connected to technology, digital communication, and structured information handling. Even though the topic we discussed was mythology, the workflow involved technical thinking and digital skills.
 
