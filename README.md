@@ -1,13 +1,14 @@
 📓 Technology Learning Journal
 
-Date: 16 January 2026**
+Date: 16 January 2026
 
-Today I learned several things that connect to technology, digital communication, and structured information handling. Even though the topic we discussed was mythology, the way we handled it involved technical thinking and digital skills. Here’s what I learned in terms of technology:
+Today I learned several things that connect to technology, digital communication, and structured information handling. Even though the topic we discussed was mythology, the way we handled it involved technical thinking and digital skills.
 
-1. Structuring Information is a Technical Skill
+🧩 1. Structuring Information is a Technical Skill
 
 I learned how important information architecture is.
-For example:
+
+Examples include:
 
 Choosing format before content
 
@@ -27,7 +28,7 @@ Knowledge graphs
 
 So I indirectly practiced data organization and system-thinking.
 
-2. Communicating with AI to Get Precise Outputs
+🤖 2. Communicating with AI to Get Precise Outputs
 
 I learned how to:
 
@@ -49,7 +50,7 @@ Query optimization
 
 In the future, this will matter a lot because AI will become a standard tool.
 
-3. Converting Content into Digital Formats
+🌐 3. Converting Content into Digital Formats
 
 During the session, I also saw how content can be converted into:
 
@@ -59,9 +60,9 @@ A timeline
 
 A structured output
 
-And previously we even touched HTML/CSS, meaning I’m also learning how offline content transforms into web code or digital documents.
+Previously we even touched HTML/CSS, meaning I’m also learning how offline content transforms into web code or digital documents.
 
-Knowing how to choose formats is important in:
+Choosing formats is important in:
 
 Web development
 
@@ -71,7 +72,7 @@ UI design
 
 Digital publishing
 
-4. Understanding the Role of Code for Representation
+💻 4. Understanding the Role of Code for Representation
 
 When I asked for the “code”, I saw that:
 
@@ -79,17 +80,17 @@ Raw text becomes HTML
 
 Styling becomes CSS
 
-And the browser becomes the rendering tool
+The browser becomes the rendering tool
 
 This teaches me that:
 
 Code is not just logic, it’s also presentation
 
-Frontend technologies are used to structure real content
+Frontend technologies structure real content
 
 Journals, notes, and information can become web applications
 
-5. Reflection as a Metacognitive Tech Skill
+📝 5. Reflection as a Metacognitive Tech Skill
 
 I practiced reflective writing, which is important in tech because:
 
@@ -106,10 +107,15 @@ So journaling itself is part of professional tech culture.
 Even if indirectly, today I worked on:
 
 ✔ Information Structuring
+
 ✔ Prompt Engineering
+
 ✔ Digital Formatting
+
 ✔ Code Representation Awareness
+
 ✔ System-Level Thinking
+
 ✔ Documentation & Journaling
 
 📎 Short Version
